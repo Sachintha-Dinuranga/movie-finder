@@ -1,13 +1,9 @@
-import MovieCard from "./components/MovieCard";
-function App() {
-  const movie = {
-    title: "Godzilla",
-    release_date: "2024",
-  };
+import Home from "./pages/Home";
 
+function App() {
   return (
     <>
-      <MovieCard movie={movie} />
+      <Home />
     </>
   );
 }
